@@ -208,6 +208,8 @@ class _LoginScreenState extends State<LoginScreen> {
       print("Password ${_loginData.password}");
       var prefs = await SharedPreferences.getInstance();
       prefs.setBool('login', true);
+      bool isLogin = prefs.getBool('login');
+      print("Login Status : $isLogin");
       Navigator.pushReplacement(
           context, MaterialPageRoute(builder: (context) => HomeScreen()));
     } else {

@@ -1,3 +1,4 @@
+import 'package:banananina/screen/cart/cart.dart';
 import 'package:banananina/screen/login/login.dart';
 import 'package:banananina/screen/product/product.dart';
 import 'package:flutter/material.dart';
@@ -57,10 +58,16 @@ class _HomeScreenState extends State<HomeScreen> {
       backgroundColor: Colors.white,
       appBar: AppBar(
         actions: <Widget>[
-          Container(
-            padding: const EdgeInsets.all(12),
-            child: Image.asset(
-              'assets/icon/icon-bag.png',
+          GestureDetector(
+            onTap: () {
+              Navigator.pushReplacement(context,
+                  MaterialPageRoute(builder: (context) => CartScreen()));
+            },
+            child: Container(
+              padding: const EdgeInsets.all(12),
+              child: Image.asset(
+                'assets/icon/icon-bag.png',
+              ),
             ),
           ),
           SizedBox(height: 16),

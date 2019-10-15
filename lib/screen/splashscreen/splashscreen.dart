@@ -20,6 +20,7 @@ class _SplashScreenState extends State<SplashScreen> {
   void checkLogin() async {
     var prefs = await SharedPreferences.getInstance();
     bool isLogin = prefs.getBool('login');
+    print("Login Status : $isLogin");
     if (isLogin == true) {
       Navigator.pushReplacement(
           context, MaterialPageRoute(builder: (context) => HomeScreen()));
