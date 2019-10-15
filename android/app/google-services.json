@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "344325571163",
+    "firebase_url": "https://banananina-5f8fc.firebaseio.com",
+    "project_id": "banananina-5f8fc",
+    "storage_bucket": "banananina-5f8fc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:344325571163:android:f9378d8a773859c484b57e",
+        "android_client_info": {
+          "package_name": "com.bimo.banananina"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "344325571163-e8efe4vtids3cpu3f83gpjquki17saql.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bimo.banananina",
+            "certificate_hash": "4ac589d02b5b38f7be46d46a8d8b635a079fd745"
+          }
+        },
+        {
+          "client_id": "344325571163-e38cj71mr77r6d8blsn2v6amgq6dv241.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6Ec7Mn0DvtYgwm-gaVelQ-peLIQzd7k0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "344325571163-e38cj71mr77r6d8blsn2v6amgq6dv241.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
